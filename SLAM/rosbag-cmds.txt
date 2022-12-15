@@ -1,0 +1,7 @@
+# THIS IS TO RECORD
+rosbag record -O out.bag /lidar1/scan
+
+
+# THIS IS FOR PLAYBACK
+roslaunch hector_slam_launch tutorial.launch
+rosbag play outdoor.bag /lidar1/scan:=/scan --clock -r 1.8

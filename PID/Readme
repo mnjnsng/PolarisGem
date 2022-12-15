@@ -1,0 +1,12 @@
+pid_1.mp4 used:
+Kp = 0.09
+Ki = 0.0144
+Kd = 1.406
+which was chosen by using Ziegler-Nichols technique.
+
+pid_2.mp4 used 
+Kp = 10.0
+Ki = 0.2
+Kd = 0.1.
+Large Kp was to illustrate the effect of a large proportional gain.
+
